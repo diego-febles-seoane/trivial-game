@@ -22,7 +22,7 @@ public abstract class ScreenController {
     private Object changeScreen(Button button, String fxmlPath, String title) {
         try {
             FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource(fxmlPath));
-            Scene scene = new Scene(fxmlLoader.load(), 340, 640);
+            Scene scene = new Scene(fxmlLoader.load(), 1140, 640);
             Stage stage = (Stage) button.getScene().getWindow();
             stage.setTitle(title);
             stage.setScene(scene);
