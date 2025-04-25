@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * @author alexfdb
+ * @author deigo-febles-seoane
  * @version 1.0.0
  */
 public abstract class DatabaseModel {
